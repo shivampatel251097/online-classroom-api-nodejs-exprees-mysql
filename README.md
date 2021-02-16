@@ -3,7 +3,7 @@
 Steps to run the code on localhost are as follows:
 
 1) First clone the repository.
-2) Open cmd-> run npm init command(to install the required dependencies package.json)
+2) Open cmd-> run npm init command(to install the required dependencies package.json).
 3)npm start to start the server.
 
 
@@ -843,5 +843,6 @@ Response:
 
 
 I hope following code will help you understanding the working of REST API's using NodeJS, express and MYSQL.
+
 Thanks for visiting!
  
