@@ -123,10 +123,16 @@ Response: The format will be in JSON
 
 
 
+
 Endpoint 2: This endpoint is responsible for enrolling new student for online classes.
+
 Method: POST
+
 Link: http://localhost:3307/student
-Body: {
+
+Body:
+
+{
         "fullname": "Hemlata Yadav",
         "father_name": "Saurabh Yadav",
         "class": "9",
@@ -134,16 +140,24 @@ Body: {
         "contact_no": "8574961237",
         "address": "Hyderabad"
     }
-Response: {
+Response: 
+
+{
     "Student": "New Sudent Enrolled with enrollment ID:16"
 }
 
 
 
+
 Endpoint 3: This endpoint is responsible for getting all the scheduled lectures.
+
 Method: GET
+
 Link: http://localhost:3307/lecture
-Response: [
+
+Response: 
+
+[
     {
         "lecture_id": 1,
         "class": "10",
@@ -307,10 +321,15 @@ Response: [
 ]
 
 
+
 Endpoint 4: This endpoint is responsible for posting/ sheduling new lecture.
+
 Method: POST
+
 Link: http://localhost:3307/lecture
+
 Body:  JSON FORMAT
+
 {
         "class": "9",
         "subject": "English",
@@ -323,23 +342,34 @@ Body:  JSON FORMAT
 
 
 Endpoint 5: This endpoint is responsible for marking students attendance for particular lecture of a student.
+
 Method: POST
+
 Link: http://localhost:3307/attendance
+
 Body:  JSON FORMAT
+
 {
     "student_id":"11",
     "lecture_id":"29"
 }
-Response: {
+Response:
+
+{
     "attendance": "Attendance Has been marked for the Lecture ID:29 of Student ID:11 with Attendance ID:17"
 }
 
 
 Endpoint 6: This endpoint is responsible for getting last five attended lecture of any student.
+
 Method: GET
+
 Link: http://localhost:3307/lastFiveAttended/1
 (Here 1 is representing the StudentID)
-Response: {
+
+Response:
+
+{
     "Lecture": [
         {
             "attendance_id": 15,
@@ -416,10 +446,14 @@ Response: {
 
 
 Endpoint 7: This endpoint is responsible to get all the lectures attended in the given month.
+
 Method: GET
+
 Link: http://localhost:3307/allAttendedMonth/2
 (Here 2 is representing the MonthNo)
-Response: {
+
+Response:
+{
     "Lecture": [
         {
             "attendance_id": 1,
@@ -665,9 +699,14 @@ Response: {
 
 
 Endpoint 8: This endpoint is responsible for getting last five attended lecture of any student.
+
 Method: GET
+
 Link: http://localhost:3307/learnersBelowEightyFive
-Response: {
+
+Response:
+
+{
     "student": [
         {
             "id_enrollment": 2,
