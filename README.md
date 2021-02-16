@@ -1,5 +1,15 @@
 # online-classroom-api-nodejs-exprees-mysql
 
+Steps to run the code on localhost are as follows:
+
+1) First clone the repository.
+2) Open cmd-> run npm init command(to install the required dependencies package.json)
+3)npm start to start the server.
+
+
+Here are the endpoints which you can run after running the server
+PS: Don't forget to make schema and change DB credentials accordingly.
+
 Endpoint 1: This endpoint is responsible for getting all the Students enrolled for online classes.
 
 Method: GET
@@ -830,4 +840,8 @@ Response:
         }
     ]
 }
+
+
+I hope following code will help you understanding the working of REST API's using NodeJS, express and MYSQL.
+Thanks for visiting!
  
