@@ -1,9 +1,13 @@
 # online-classroom-api-nodejs-exprees-mysql
 
 Endpoint 1: This endpoint is responsible for getting all the Students enrolled for online classes.
+
 Method: GET
+
 Link: http://localhost:3307/student
+
 Response: The format will be in JSON
+
 [
     {
         "id_enrollment": 1,
