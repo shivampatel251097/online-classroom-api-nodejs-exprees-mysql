@@ -1,4 +1,4 @@
-# online-classroom-api-nodejs-exprees-mysql
+# online-classroom-api-nodejs-express-mysql
 
 Steps to run the code on localhost are as follows:
 
@@ -844,5 +844,5 @@ Response:
 
 I hope following code will help you understanding the working of REST API's using NodeJS, express and MYSQL.
 
-Thanks for visiting!
+Thanks for visiting! Good luck🤞
  
