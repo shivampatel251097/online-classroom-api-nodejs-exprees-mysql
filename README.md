@@ -1,6 +1,6 @@
 # online-classroom-api-nodejs-express-mysql
 
-Steps to run the code on localhost are as follows:
+Steps to execute the code on localhost are as follows:
 
 1) First clone the repository.
 2) Open cmd-> run npm init command (to install the required dependencies package.json).
